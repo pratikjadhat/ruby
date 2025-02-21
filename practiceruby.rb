@@ -142,9 +142,59 @@
 
 #array
 
-a = [1,2,3,4,4]
-p a
-b=(1..100)
-p b.to_a
+# a = [1,2,3,4,4]
+# p a
+# b=(1..100)
+# p b.to_a
+
+# # puts a.last
+#  c = a.pop
+# puts a.to_s
+# puts c
+
+#======================================================================================
+
+# use of split and join  
+
+# a = [1,2,3,4,5,6,7,8,9,"Pratik"]
+
+# puts a.join
+# puts a.join("_")
+
+# b = "I love u so much"
+# c=b.split(" ")
+# # puts c.to_a
+# puts c[1]
+# w = %w(my name is pratik)
+
+# puts w[3]
 
 
+
+
+#======================================================================================
+
+
+# a = (1..10)
+
+
+# # puts a.to_a
+
+# puts a.select {|num | num.odd?}
+  
+
+#======================================================================================
+
+#Hashes 
+
+sample_details = {'a'=>1 , 'b'=>2 , 'c'=>3}
+
+p sample_details['a']
+
+sample_details1 = {a:"Pratik" ,b:2 ,c:3}
+
+p sample_details1[:a]
+
+sample_details1[:d]="Jadhar"
+
+p sample_details1[:d]
